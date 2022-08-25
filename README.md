@@ -6,3 +6,8 @@ Usage: short_schedule.vbs [days] [outFilename]
 
 The VBS scripts can be executed from the task scheduler.
 
+Depending libraries:
+- BASP21 http://www.hi-ho.ne.jp/~babaq/basp21.html
+  MidB is used to truncate Kanji string into a fixed length.
+  If any problem, comment out all lines in MyLeftB function except for
+     MyLeftB = pS_String
